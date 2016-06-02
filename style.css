@@ -33,6 +33,18 @@ header {
     Background-color:blue;
     display:block;
 }
+#left2 {
+    padding: 10px;
+    float: clear;
+    width: 40%;
+    float: left;
+	
+}
+#right2 {
+    padding: 10px;
+    width: 40%;
+    float: left;
+}
 
 #left {
     padding: 10px;
@@ -58,6 +70,7 @@ footer {
 	clear: both;
 }
 .social-list {
+    
     list-style: none;
     display: block;
     padding: 2px;
