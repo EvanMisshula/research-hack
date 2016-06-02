@@ -1,0 +1,67 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+nav {
+    display:inline;
+    float:right;
+}
+
+header {
+}
+
+#main-content {
+}
+#cool-picture {
+    height:350px;
+    background-image: url("/assets/slide-image-1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:block;
+}
+
+#social {
+    height: 50px;
+    width: auto;
+    Background-color:blue;
+    display:block;
+}
+
+#left {
+    padding: 10px;
+    float: clear;
+    width: 30%;
+    float: left;
+	
+}
+#right {
+    padding: 10px;
+    width: 30%;
+    float: left;
+}
+#middle {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+    
+
+footer {
+	
+	clear: both;
+}
+.social-list {
+    list-style: none;
+    display: block;
+    padding: 2px;
+}
+#slist {
+    display: block;
+}
