@@ -5,7 +5,8 @@ a {
 
 li {
 	list-style: none;
-	display: inline;
+	display: inline-block;
+    font-family: sans-serif;
 }
 nav {
     display:inline;
@@ -17,45 +18,57 @@ header {
 
 #main-content {
 }
+
 #cool-picture {
     height:350px;
-    background-image: url("/assets/slide-image-1.jpg");
+    background-image: url(assets/slide-image-1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     display:block;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial;
+}
+
+#left, #right, #middle {
+    padding: 10px;
 }
 
 #social {
     height: 50px;
     width: auto;
-    Background-color:blue;
+    background-color:blue;
     display:block;
 }
 
 #left {
-    padding: 10px;
     float: clear;
     width: 30%;
     float: left;
 	
 }
 #right {
-    padding: 10px;
     width: 30%;
     float: left;
 }
 #middle {
     width: 30%;
     float: left;
-    padding: 10px;
 }
     
 
 footer {
-	
 	clear: both;
+    width: 50%;
+    margin: 0 auto;
 }
 .social-list {
     list-style: none;
