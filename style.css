@@ -30,12 +30,19 @@ header {
     margin: 10px;
 }
 
+h1 {
+    font-family: sans-serif;
+    float: left
+    margin-right: 10px;
+}
+
 h2 {
     text-align: center;
 }
 
 body {
     font-family: Arial;
+    background-color: #FF9999";
 }
 
 #left, #right, #middle {
